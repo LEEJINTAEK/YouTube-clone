@@ -7,7 +7,7 @@
     --grey-light-color: #e0e0e0;
 
     --padding: 12px;
-    --avatar-size: 36px;
+    --avatar-size: 45px;
 
     --font-large: 18px;
     --font-medium: 14px;
@@ -23,7 +23,7 @@
 
 a {
     text-decoration: none;
-    color: var(--white-color);
+    color: inherit;
 }
 
 body {
@@ -58,7 +58,7 @@ header .log {
     font-size: var(--font-large);
 }
 
-header .iog i {
+header .log i {
     color: var(--red-color);
 }
 
@@ -66,6 +66,9 @@ header .icon .fa-search {
     margin-right: var(--padding);
 }
 
+header .icon i {
+    margin-right: 50px;
+}
 
 /* video */
 .player {
@@ -236,12 +239,13 @@ body .info {
 
 .UpNext .item .info {
     display: flex;
-    flex: 65%;
+    flex: 60%;
     line-height: 1.5;
 }
 
 .UpNext .item .moreBtn {
-    flex: 5%;
+    flex: 10%;
+    margin-bottom: 60px;
 }
 
 .UpNext .item .info {
